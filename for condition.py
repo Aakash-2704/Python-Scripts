@@ -9,6 +9,6 @@ print("----------------------------------------")
 
 fruits = ["apple", "banana", "cherry"]
 
-#for loop
+#for loop in loop
 for x in fruits:
   print(x)
