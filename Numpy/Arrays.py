@@ -24,6 +24,10 @@ print(array3d.ndim)
 #==================================================================================
 
 arr = np.array([1, 2, 3, 4, 5])           # Printing the value of an index
-print(arr[1]) 
 
+#              [0],[1],[2],[3],[4]           respective indexes
+
+print(arr[1]) 
+print(arr[0]+arr[1])                      #using the index value, adding the value
+print(arr[2]*arr[3])                      #using the index value, multiple the value
 #===================================================================================
