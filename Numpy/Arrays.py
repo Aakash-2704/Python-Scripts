@@ -6,7 +6,7 @@ print(arr)
 print(type(arr))
 
 #================================================================================
-arr_tuple = np.array((1,2,3,4,5))              #Creating an array using tuple
+arr_tuple = np.array((1,2,3,4,5))              # Creating an array using tuple
 
 print(arr_tuple)
 
@@ -17,8 +17,13 @@ print(array2d)
 
 #=================================================================================
 
-array3d = np.array([[1,2,3],[4,5,6],[7,8,9]]) #Creating a 3 dimensional array
+array3d = np.array([[1,2,3],[4,5,6],[7,8,9]]) # Creating a 3 dimensional array
 print(array3d)
+print(array3d.ndim)
 
 #==================================================================================
 
+arr = np.array([1, 2, 3, 4, 5])           # Printing the value of an index
+print(arr[1]) 
+
+#===================================================================================
