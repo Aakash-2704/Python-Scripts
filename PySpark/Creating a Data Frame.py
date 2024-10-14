@@ -9,3 +9,4 @@ column =["Name","Age"]
 df = spark.createDataFrame(data,column)
 
 df.show()
+
