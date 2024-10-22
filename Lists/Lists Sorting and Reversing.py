@@ -15,11 +15,15 @@ numbers.reverse()                      # Reversing the given number
 print(numbers)         # 4th output
 
 
+reverse_numbers =numbers[::-1]
+
+print(reverse_numbers)    # 5th output
 
 # Optional 
 
 fruits = ["banana","Orange","apple","KIWI","PINEapple"]  # Sorting the list according to Alphabetical order where Capital
                                                          # letters first and then small letters
+
 fruits.sort()
 
 print(fruits)
