@@ -14,6 +14,3 @@ numbers.reverse()                      # Reversing the given number
 
 print(numbers)         # 4th output
 
-numbers.sort(reversed)
-
-print(numbers)
